@@ -26,9 +26,9 @@ public class Main {
         Product p = new Product();
 
         // Call each overloaded method
-        System.out.println("Product of 2 int: " + p.product(2, 3));
-        System.out.println("Product of 3 int: " + p.product(2, 3, 4));
-        System.out.println("Product of 2 double: " + p.product(2.5, 3.5));
+        System.out.println(p.product(2, 3));
+        System.out.println(p.product(2, 3, 4));
+        System.out.println(p.product(2.5, 3.5));
     }
 
 }
