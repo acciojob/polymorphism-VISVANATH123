@@ -4,17 +4,14 @@ public class Main {
 
     static class Product {
 
-        // Task 3: Method with 2 int parameters
         public int product(int x, int y) {
             return x * y;
         }
 
-        // Task 4: Overloaded method with 3 int parameters
         public int product(int x, int y, int z) {
             return x * y * z;
         }
 
-        // Task 5: Overloaded method with 2 double parameters
         public double product(double x, double y) {
             return x * y;
         }
@@ -22,7 +19,6 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Task 2: Create object of Product
         Product p = new Product();
 
         // Call each overloaded method
